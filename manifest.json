@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "AutoRoot",
+    "version": "1.0",
+    "description": "Automatically finds root notes of youtube videos.",
+    "homepage_url": "https://github.com/gschwid/auto-root",
+    "icons": {
+        "48": "icons/auto-root-logo.svg"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_title": "AutoRoot",
+        "default_popup": "popup/song.html"
+    }
+}
